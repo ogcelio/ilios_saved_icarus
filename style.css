@@ -1,0 +1,51 @@
+body {
+    background-color: #0d0d0d; /* Fundo escuro para destacar o dourado */
+    color: #f2e6d8;
+    font-family: "Georgia", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffcc33; /* Cor de Sol/Ouro */
+    font-size: 2.5rem;
+    text-shadow: 0 0 10px rgba(255, 204, 51, 0.5);
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid #ffcc33;
+    margin: 20px 0;
+}
+
+.text-content p {
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+
+.btn-next {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 25px;
+    background-color: #ffcc33;
+    color: #000;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-next:hover {
+    background-color: #fff;
+    box-shadow: 0 0 20px #ffcc33;
+}
