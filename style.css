@@ -49,3 +49,14 @@ h1 {
     background-color: #fff;
     box-shadow: 0 0 20px #ffcc33;
 }
+
+/* Estilo para a legenda em si */
+figcaption {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #ffcc33; /* Cor dourada para combinar com o Sol */
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+}
